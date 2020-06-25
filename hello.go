@@ -75,6 +75,7 @@ func main() {
 
 	transactionFromByte := fromBytes(data)
 	fmt.Println("transactionFromByte ", transactionFromByte)
+	Hi()
 }
 
 func generateRandomAddress() common.Address {
